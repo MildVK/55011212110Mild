@@ -19,8 +19,8 @@ class Fruit{
         return color
     }
     
-    func Add(fruitAdd:String, colorAdd:String){
-       NFruit[fruitAdd] = colorAdd
+    func Add(fruitAdd:String, coloradd:String){
+       NFruit[fruitAdd] = coloradd
         
     }
     
@@ -36,6 +36,6 @@ class Fruit{
 
 let colorF = Fruit(Namefruit : "Roseapple")
 colorF.Colorfruit()
-colorF.Add("Mango", colorAdd: "yellow")
+colorF.Add("Mango", coloradd: "yellow")
 colorF.Del("Grapes")
 colorF.Edit("Orange", coloredit: "green")
